@@ -1,10 +1,91 @@
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.chivo-<uniquifier> {
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+    color: #4f91c4;
+    font-family: "Chivo";
+}
+
+p a {
+    font-style: italic;
+    color: 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Shrikhand';
+    font-size: 50px;
+}
+
+h2 {
+    color: #4f91c4;
+    text-align: center;
+    font-family: 'Shrikhand';
+    font-size: 30px;
+}
+  
 img {
     width: 200px;
 }
 
-body {
+nav {
+    height: 40px;
+    margin: 10px;
+    background: white;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    font-family: "Chivo";
+}
+
+nav ul li {
+    list-style-type: none;
     text-align: center;
-    font-family: 'Arial';
-    background: lightskyblue;
-    color: darkblue;
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4f91c4;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+#toppage {
+    background: #4f91c4;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#about, #upcoming, #contact {
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    width: 650px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
 }
