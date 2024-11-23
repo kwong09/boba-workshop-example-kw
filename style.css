@@ -1,31 +1,26 @@
-.shrikhand-regular {
-    font-family: "Shrikhand", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+html {
+    background-color: #ecf7ff;
 
-.chivo-<uniquifier> {
-  font-family: "Chivo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 p {
     color: #4f91c4;
     font-family: "Chivo";
+    line-height: 150%;
+    font-size: 18px;
 }
 
-p a {
+a {
     font-style: italic;
-    color: 
+    color: #195481;
 }
 
 h1 {
     color: white;
     text-align: center;
     font-family: 'Shrikhand';
-    font-size: 50px;
+    font-weight: 50;
+    font-size: 60px;
 }
 
 h2 {
@@ -40,8 +35,10 @@ img {
 }
 
 nav {
-    height: 40px;
+    min-height: 40px;
+    line-height: 120%;
     margin: 10px;
+    margin-bottom: 20px;
     background: white;
     padding: 15px;
     padding-bottom: 20px;
@@ -55,6 +52,7 @@ nav ul li {
     text-align: center;
     display: inline;
     margin: 15px;
+    font-size: 18px;
 }
 
 nav ul li a {
@@ -67,8 +65,9 @@ nav ul li a:hover {
 }
 
 #toppage {
-    background: #4f91c4;
+    background-image: linear-gradient(to right, #ef6bb3, #4f91c4);
     padding: 10px;
+    margin: 10px;
     border-radius: 20px;
 }
 
@@ -79,13 +78,53 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-#about, #upcoming, #contact {
+#upcoming ul {
+    list-style-type: none;
+    font-family: "Chivo";
+    color: #4f91c4;
+    line-height: 150%;
+    padding-left: 0;
+    color: #ef6bb3;
+    font-size: 18px;
+    padding: 25px;
+    padding-top: 0px;
+}
+
+#upcoming h2 {
+    color: #ef6bb3;
+}
+
+#contact h2, #contact p {
+    color: #a267c4;
+}
+
+#upcoming, #contact{
     background: white;
     text-align: center;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-    width: 650px;
+    width: 300px;
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
+}
+
+#about, #latestslides, #resources {
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#about p, #contact p {
+    padding: 25px;
+    padding-top: 0px;
+}
+
+#latestslides {
+    font-family: "Chivo";
 }
